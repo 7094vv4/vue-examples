@@ -1,0 +1,26 @@
+[
+  {
+    "name": "北海道",
+    "phonetic": "ほっかいどう"
+  },
+  {
+    "name": "青森",
+    "phonetic": "あおもり"
+  },
+  {
+    "name": "岩手",
+    "phonetic": "いわて"
+  },
+  {
+    "name": "宮城",
+    "phonetic": "みやぎ"
+  },
+  {
+    "name": "秋田",
+    "phonetic": "あきた"
+  },
+  {
+    "name": "山形",
+    "phonetic": "やまがた"
+  }
+]
