@@ -11,6 +11,7 @@
     ClipPathDecoration
     HeadingOverhang
     HeadingShift
+    DarkModeWithDifference
 </template>
 
 <script>
@@ -25,6 +26,7 @@ import StripeFramedBox from '@/components/templates/page2/StripeFramedBox.vue'
 import ClipPathDecoration from '@/components/templates/page2/ClipPathDecoration.vue'
 import HeadingOverhang from '@/components/templates/page2/HeadingOverhang.vue'
 import HeadingShift from '@/components/templates/page2/HeadingShift.vue'
+import DarkModeWithDifference from '@/components/templates/page2/DarkModeWithDifference.vue'
 
 export default {
   components: {
@@ -38,7 +40,8 @@ export default {
     StripeFramedBox,
     ClipPathDecoration,
     HeadingOverhang,
-    HeadingShift
+    HeadingShift,
+    DarkModeWithDifference
   }
 }
 </script>
