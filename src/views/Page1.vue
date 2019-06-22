@@ -16,6 +16,8 @@
     GetInnerSize
     DevicePixelRatio
     IsCanTouch
+    ChangePageTitle
+    IsPageFocused
 </template>
 
 <script>
@@ -35,6 +37,8 @@ import OpenConfirm from '@/components/templates/page1/OpenConfirm.vue'
 import GetInnerSize from '@/components/templates/page1/GetInnerSize.vue'
 import DevicePixelRatio from '@/components/templates/page1/DevicePixelRatio.vue'
 import IsCanTouch from '@/components/templates/page1/IsCanTouch.vue'
+import ChangePageTitle from '@/components/templates/page1/ChangePageTitle.vue'
+import IsPageFocused from '@/components/templates/page1/IsPageFocused.vue'
 
 export default {
   components: {
@@ -53,7 +57,9 @@ export default {
     OpenConfirm,
     GetInnerSize,
     DevicePixelRatio,
-    IsCanTouch
+    IsCanTouch,
+    ChangePageTitle,
+    IsPageFocused
   }
 }
 </script>
