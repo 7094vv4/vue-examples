@@ -1,0 +1,85 @@
+@import '_colors';
+@import '_variables';
+@import '_mixins';
+
+html {
+  font-size: 16px;
+
+  @include mq-sp {
+    font-size: 14px;
+  }
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.v-enter,
+.v-leave-to {
+  opacity: 0;
+}
+
+.v-enter-to,
+.v-leave {
+  opacity: 1;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity $ad-medium ease;
+}
+
+.link {
+  border-bottom: 2px solid $color-main;
+  color: $color-main;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button {
+  border: 2px solid $color-main;
+  border-radius: $br-item;
+  color: $color-main;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+
+  &:disabled {
+    border-color: $color-disabled;
+    color: $color-disabled;
+  }
+
+  &-text {
+    @extend .link;
+
+    &:disabled {
+      border-color: $color-disabled;
+      color: $color-disabled;
+    }
+  }
+}
+
+.input {
+  border: 2px solid $color-main;
+  border-radius: $br-item;
+  font: inherit;
+  padding: 0.5rem;
+  width: 100%;
+
+  &::placeholder {
+    color: $color-disabled;
+  }
+}
+
+.tab {
+  background-color: $color-background;
+  border-radius: $br-item $br-item 0 0;
+  color: $color-main;
+  font-size: $fs-small;
+  padding: 0.5rem;
+
+  &-active {
+    background-color: $color-main;
+    color: $color-background;
+  }
+}

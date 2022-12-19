@@ -1,0 +1,5 @@
+$color-parentBg: #fff;
+$color-main: #753;
+$color-background: #181e34;
+$color-disabled: darken(desaturate($color-main, 30%), 10%);
+$color-background--transparent: transparentize($color-background, 0.2);
